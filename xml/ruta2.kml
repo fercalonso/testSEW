@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+    <Placemark>
+      <name>Ruta Natural por el Río Cubia</name>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.0625,43.3865,95.0
+          -6.061,43.387,96.0
+          -6.0598,43.3875,94.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Inicio Paseo Fluvial</name>
+      <description>Punto de partida del sendero junto al parque infantil.</description>
+      <Point>
+        <coordinates>-6.0625,43.3865,95.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Zona de merendero</name>
+      <description>Área de descanso con mesas y bancos, ideal para picnic.</description>
+      <Point>
+        <coordinates>-6.061,43.387,96.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Puente de madera</name>
+      <description>Pequeño puente peatonal sobre el río con vistas naturales.</description>
+      <Point>
+        <coordinates>-6.0598,43.3875,94.0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>

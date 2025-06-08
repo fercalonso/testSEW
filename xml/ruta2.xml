@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta id="ruta2" medioTransporte="A pie" fechaInicio="2025-08-02" horaInicio="09:00">
+        <nombre>Ruta Natural por el Río Cubia</nombre>
+        <tipoRuta>Ruta natural</tipoRuta>
+        <tiempoDuracion unidad="horas">2.5</tiempoDuracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Un paseo tranquilo por las orillas del río Cubia, con vistas a la naturaleza y
+            áreas de descanso.</descripcion>
+        <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
+        <lugarInicio>Paseo del Río Cubia</lugarInicio>
+        <direccionInicio>Calle Río Cubia, Grado</direccionInicio>
+        <coordenadasInicio>
+            <longitud>-6.0625</longitud>
+            <latitud>43.3865</latitud>
+            <altitud>95</altitud>
+        </coordenadasInicio>
+        <referencias>
+            <referencia url="https://www.asturiasparadisfrutar.es/rutas/rio-cubia">Asturias para
+                disfrutar</referencia>
+            <referencia url="https://www.senditur.com/es/ruta/paseo-fluvial-del-rio-cubia/">Senditur</referencia>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Inicio Paseo Fluvial</nombreHito>
+                <descripcionHito>Punto de partida del sendero junto al parque infantil.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0625</longitud>
+                    <latitud>43.3865</latitud>
+                    <altitud>95</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">0</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>inicio_paseo.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Zona de merendero</nombreHito>
+                <descripcionHito>Área de descanso con mesas y bancos, ideal para picnic.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0610</longitud>
+                    <latitud>43.3870</latitud>
+                    <altitud>96</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">400</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>merendero.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Puente de madera</nombreHito>
+                <descripcionHito>Pequeño puente peatonal sobre el río con vistas naturales.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0598</longitud>
+                    <latitud>43.3875</latitud>
+                    <altitud>94</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">200</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>puente_madera.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+        </hitos>
+        <planimetriaKML>ruta2.kml</planimetriaKML>
+        <altimetriaSVG>ruta2.svg</altimetriaSVG>
+    </ruta>
+</rutas>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+    <Placemark>
+      <name>Ruta Gastronómica por los Chigres</name>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.062,43.3847,100.0
+          -6.06,43.3845,101.0
+          -6.0585,43.3843,99.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Sidrería El Rincón</name>
+      <description>Ambiente familiar y buena sidra local acompañada de chorizo a la
+                    sidra.</description>
+      <Point>
+        <coordinates>-6.062,43.3847,100.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Casa Pachón</name>
+      <description>Tapas asturianas clásicas en un entorno tradicional de chigre.</description>
+      <Point>
+        <coordinates>-6.06,43.3845,101.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>La Cuadra</name>
+      <description>Postres caseros y sidra en una sidrería con decoración rural.</description>
+      <Point>
+        <coordinates>-6.0585,43.3843,99.0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>

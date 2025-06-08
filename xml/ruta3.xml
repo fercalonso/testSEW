@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta id="ruta3" medioTransporte="A pie" fechaInicio="2025-08-20" horaInicio="19:00">
+        <nombre>Ruta Gastronómica por los Chigres</nombre>
+        <tipoRuta>Gastronomía y sidra</tipoRuta>
+        <tiempoDuracion unidad="horas">2</tiempoDuracion>
+        <agencia>Con agencia</agencia>
+        <descripcion>Descubre los sabores tradicionales de Grado con una ruta por chigres y
+            sidrerías emblemáticas.</descripcion>
+        <personasAdecuadas>Mayores de 18 años</personasAdecuadas>
+        <lugarInicio>Parque de Arriba</lugarInicio>
+        <direccionInicio>Calle Asturias, Grado</direccionInicio>
+        <coordenadasInicio>
+            <longitud>-6.0632</longitud>
+            <latitud>43.3848</latitud>
+            <altitud>100</altitud>
+        </coordenadasInicio>
+        <referencias>
+            <referencia url="https://www.lasidreria.es/asturias/grado">La Sidrería</referencia>
+            <referencia url="https://www.asturiassingluten.es/rutas-gastronomicas/grado">Asturias
+                Sin Gluten</referencia>
+        </referencias>
+        <recomendacion>10</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Sidrería El Rincón</nombreHito>
+                <descripcionHito>Ambiente familiar y buena sidra local acompañada de chorizo a la
+                    sidra.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0620</longitud>
+                    <latitud>43.3847</latitud>
+                    <altitud>100</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">200</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>el_rincon.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Casa Pachón</nombreHito>
+                <descripcionHito>Tapas asturianas clásicas en un entorno tradicional de chigre.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0600</longitud>
+                    <latitud>43.3845</latitud>
+                    <altitud>101</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">150</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>casa_pachon.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>La Cuadra</nombreHito>
+                <descripcionHito>Postres caseros y sidra en una sidrería con decoración rural.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0585</longitud>
+                    <latitud>43.3843</latitud>
+                    <altitud>99</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">180</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>la_cuadra.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+        </hitos>
+        <planimetriaKML>ruta3.kml</planimetriaKML>
+        <altimetriaSVG>ruta3.svg</altimetriaSVG>
+    </ruta>
+</rutas>

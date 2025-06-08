@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta id="ruta1" medioTransporte="A pie" fechaInicio="2025-07-15" horaInicio="10:00">
+        <nombre>Ruta de la Arquitectura Indiana</nombre>
+        <tipoRuta>Arquitectura y monumentos</tipoRuta>
+        <tiempoDuracion unidad="horas">3</tiempoDuracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Una ruta a pie por el centro de Grado para descubrir su arquitectura indiana y
+            otros edificios históricos.</descripcion>
+        <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
+        <lugarInicio>Plaza General Ponte</lugarInicio>
+        <direccionInicio>Plaza General Ponte, Grado</direccionInicio>
+        <coordenadasInicio>
+            <longitud>-6.0656</longitud>
+            <latitud>43.3849</latitud>
+            <altitud>100</altitud>
+        </coordenadasInicio>
+        <referencias>
+            <referencia url="https://es.wikipedia.org/wiki/Grado_(Asturias)">Wikipedia</referencia>
+            <referencia url="https://www.turismoasturias.es/descubre/municipios/grado">Turismo
+                Asturias</referencia>
+            <referencia url="https://indianos.info/asturias/grado/">Indianos.info</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+            <hito>
+                <nombreHito>Casa de los Arcos</nombreHito>
+                <descripcionHito>Ejemplo notable de arquitectura indiana con elementos decorativos
+                    originales.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0671</longitud>
+                    <latitud>43.3845</latitud>
+                    <altitud>102</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">250</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>casa_arcos.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Capilla de Los Dolores</nombreHito>
+                <descripcionHito>Edificio barroco del siglo XVIII vinculado a la cultura local.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0660</longitud>
+                    <latitud>43.3830</latitud>
+                    <altitud>104</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">180</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>capilla_dolores.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Mercado de Grado</nombreHito>
+                <descripcionHito>Uno de los mercados más emblemáticos del occidente asturiano.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0667</longitud>
+                    <latitud>43.3852</latitud>
+                    <altitud>100</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">300</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>mercado.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Ayuntamiento de Grado</nombreHito>
+                <descripcionHito>Edificio civil con fachada de estilo ecléctico.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0655</longitud>
+                    <latitud>43.3850</latitud>
+                    <altitud>101</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">200</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>ayuntamiento.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+            <hito>
+                <nombreHito>Parque San Antonio</nombreHito>
+                <descripcionHito>Pulmón verde del centro urbano con zonas de paseo y descanso.</descripcionHito>
+                <coordenadasHito>
+                    <longitud>-6.0640</longitud>
+                    <latitud>43.3840</latitud>
+                    <altitud>98</altitud>
+                </coordenadasHito>
+                <distanciaDesdeAnterior unidad="m">150</distanciaDesdeAnterior>
+                <galeriaFotografias>
+                    <foto>parque_san_antonio.jpg</foto>
+                </galeriaFotografias>
+                <galeriaVideos />
+            </hito>
+        </hitos>
+        <planimetriaKML>ruta1.kml</planimetriaKML>
+        <altimetriaSVG>ruta1.svg</altimetriaSVG>
+    </ruta>
+</rutas>

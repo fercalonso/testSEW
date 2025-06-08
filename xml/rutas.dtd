@@ -1,0 +1,53 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta (nombre, tipoRuta, tiempoDuracion, agencia, descripcion, personasAdecuadas, lugarInicio, direccionInicio, coordenadasInicio, referencias, recomendacion, hitos, planimetriaKML, altimetriaSVG)>
+<!ATTLIST ruta
+    id ID #REQUIRED
+    medioTransporte CDATA #REQUIRED
+    fechaInicio CDATA #IMPLIED
+    horaInicio CDATA #IMPLIED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipoRuta (#PCDATA)>
+<!ELEMENT tiempoDuracion (#PCDATA)>
+<!ATTLIST tiempoDuracion
+    unidad (horas | dias | semanas) #REQUIRED
+>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT personasAdecuadas (#PCDATA)>
+<!ELEMENT lugarInicio (#PCDATA)>
+<!ELEMENT direccionInicio (#PCDATA)>
+
+<!ELEMENT coordenadasInicio (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia
+    url CDATA #REQUIRED
+>
+
+<!ELEMENT recomendacion (#PCDATA)>
+
+<!ELEMENT hitos (hito+)>
+<!ELEMENT hito (nombreHito, descripcionHito, coordenadasHito, distanciaDesdeAnterior, galeriaFotografias, galeriaVideos?)>
+<!ATTLIST hito
+    id ID #IMPLIED
+>
+<!ELEMENT nombreHito (#PCDATA)>
+<!ELEMENT descripcionHito (#PCDATA)>
+<!ELEMENT coordenadasHito (longitud, latitud, altitud)>
+<!ELEMENT distanciaDesdeAnterior (#PCDATA)>
+<!ATTLIST distanciaDesdeAnterior
+    unidad (km | m) #REQUIRED
+>
+<!ELEMENT galeriaFotografias (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT galeriaVideos (video*)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT planimetriaKML (#PCDATA)>
+<!ELEMENT altimetriaSVG (#PCDATA)>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+    <Placemark>
+      <name>Ruta de la Arquitectura Indiana</name>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.0671,43.3845,102.0
+          -6.066,43.383,104.0
+          -6.0667,43.3852,100.0
+          -6.0655,43.385,101.0
+          -6.064,43.384,98.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Casa de los Arcos</name>
+      <description>Ejemplo notable de arquitectura indiana con elementos decorativos
+                    originales.</description>
+      <Point>
+        <coordinates>-6.0671,43.3845,102.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Capilla de Los Dolores</name>
+      <description>Edificio barroco del siglo XVIII vinculado a la cultura local.</description>
+      <Point>
+        <coordinates>-6.066,43.383,104.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Mercado de Grado</name>
+      <description>Uno de los mercados más emblemáticos del occidente asturiano.</description>
+      <Point>
+        <coordinates>-6.0667,43.3852,100.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Ayuntamiento de Grado</name>
+      <description>Edificio civil con fachada de estilo ecléctico.</description>
+      <Point>
+        <coordinates>-6.0655,43.385,101.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Parque San Antonio</name>
+      <description>Pulmón verde del centro urbano con zonas de paseo y descanso.</description>
+      <Point>
+        <coordinates>-6.064,43.384,98.0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
