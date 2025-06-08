@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gastronomía - Grado</title>
+    <link rel="stylesheet" href="estilo/estilo.css" />
+    <link rel="stylesheet" href="estilo/layout.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Recursos turísticos de Grado</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="gastronomia.html" class="activo">Gastronomía</a></li>
+          <li><a href="rutas.html">Rutas</a></li>
+          <li><a href="meteorologia.html">Meteorología</a></li>
+          <li><a href="juego.html">Juego</a></li>
+          <li><a href="reservas.php">Reservas</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p>
+        Estás en: <a href="index.html" title="Inicio">Inicio</a> &gt;&gt;
+        Gastronomía
+      </p>
+
+      <section>
+        <h2>Platos típicos de Grado</h2>
+        <ol>
+          <li>Fabas con jabalí</li>
+          <li>Callos a la asturiana</li>
+          <li>Cordero a la estaca</li>
+        </ol>
+
+        <h2>Productos tradicionales</h2>
+        <ul>
+          <li>
+            Queso afuega’l pitu
+            <ul>
+              <li>Variedad blanca</li>
+              <li>Variedad roxa (con pimentón)</li>
+            </ul>
+          </li>
+          <li>Miel de brezo</li>
+          <li>Frixuelos</li>
+        </ul>
+
+        <h2>Términos gastronómicos</h2>
+        <dl>
+          <dt>Faba</dt>
+          <dd>Legumbre típica utilizada en la fabada.</dd>
+          <dt>Afuega’l pitu</dt>
+          <dd>
+            Queso curado tradicional de la zona centro-occidental de Asturias.
+          </dd>
+          <dt>Frixuelo</dt>
+          <dd>
+            Postre similar a las crepes, elaborado con leche, harina y huevo.
+          </dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Recetas destacadas</h2>
+        <table>
+          <caption>
+            Platos tradicionales del concejo de Grado
+          </caption>
+          <thead>
+            <tr>
+              <th id="th-nombre" scope="col">Nombre</th>
+              <th id="th-tipo" scope="col">Tipo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="th-nombre">Fabas con jabalí</td>
+              <td headers="th-tipo">Primer plato</td>
+            </tr>
+            <tr>
+              <td headers="th-nombre">Callos a la asturiana</td>
+              <td headers="th-tipo">Principal</td>
+            </tr>
+            <tr>
+              <td headers="th-nombre">Frixuelos</td>
+              <td headers="th-tipo">Postre</td>
+            </tr>
+            <tr>
+              <td headers="th-nombre">Queso afuega’l pitu</td>
+              <td headers="th-tipo">Aperitivo</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Galería multimedia</h2>
+        <figure>
+          <img
+            src="multimedia/gastronomia.jpg"
+            alt="Plato típico de Grado"
+            loading="lazy"
+          />
+          <figcaption>Fabas con jabalí</figcaption>
+        </figure>
+
+        <video controls>
+          <source src="multimedia/receta.mp4" type="video/mp4" />
+          <source src="multimedia/receta.webm" type="video/webm" />
+          Tu navegador no soporta el vídeo.
+        </video>
+
+        <!-- Audio opcional -->
+        <!--
+      <audio controls>
+        <source src="multimedia/audio.mp3" type="audio/mpeg">
+        <source src="multimedia/audio.ogg" type="audio/ogg">
+        Tu navegador no soporta el audio.
+      </audio>
+      --></section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Recursos turísticos de Grado</p>
+    </footer>
+  </body>
+</html>

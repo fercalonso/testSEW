@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="UO295255" />
+    <meta
+      name="description"
+      content="Rutas turísticas por el concejo de Grado"
+    />
+    <meta name="keywords" content="rutas, turismo, Grado, senderismo" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link
+      rel="icon"
+      href="multimedia/imagenes/favicon.ico"
+      type="image/x-icon"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/rutas.js"></script>
+    <title>Turismo Grado: Rutas</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Recursos turísticos de Grado</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="gastronomia.html">Gastronomía</a></li>
+          <li><a href="rutas.html">Rutas</a></li>
+          <li><a href="meteorologia.html">Meteorología</a></li>
+          <li><a href="juego.html">Juego</a></li>
+          <li><a href="reservas.php">Reservas</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p>
+        Estás en: <a href="index.html" title="Inicio">Inicio</a> &gt;&gt; Rutas
+      </p>
+
+      <section>
+        <h2>Rutas Turísticas</h2>
+
+        <p>
+          <label for="xmlInput">Cargar archivo XML de rutas:</label><br />
+          <input type="file" id="xmlInput" accept=".xml" />
+        </p>
+
+        <p>
+          <label for="kmlInput">Cargar archivo KML (mapa de ruta):</label><br />
+          <input type="file" id="kmlInput" accept=".kml" />
+        </p>
+
+        <p>
+          <label for="svgInput">Cargar archivo SVG (altimetría):</label><br />
+          <input type="file" id="svgInput" accept=".svg" />
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
